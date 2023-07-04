@@ -93,22 +93,20 @@ body {
 
 .heading-primary,
 .hero-heading-primary {
-  font-size: 4.4rem;
+  font-size: 5.2rem;
   line-height: 1.05;
 }
 
 .hero-heading-primary {
-  margin-bottom: 3.2rem;
+  margin-bottom: 2.4rem;
 }
 
-.heading-primary {
-  margin-bottom: 6.4rem;
-}
-
+.hero-heading-secondary,
 .heading-secondary {
-  font-size: 4.4rem;
+  font-size: 2.4rem;
   line-height: 1.2;
   margin-bottom: 6.4rem;
+  color: #555;
 }
 
 .heading-tertiary {
@@ -152,8 +150,8 @@ body {
   padding: 1.6rem 1.6rem;
   text-decoration: none;
   text-align: center;
-  background-color: #c56483;
-  color: #f9f0f3;
+  background-color: #1a67af;
+  color: #e8f0f7;
 
   /* only necessary for .btn */
   border: none;
@@ -162,6 +160,13 @@ body {
 
   /* Put transition on original "state" */
   transition: all 0.3s;
+}
+
+.btn--pink,
+.btn--pink:link,
+.btn--pink:visited {
+  background-color: #f2a2be;
+  color: #302026;
 }
 
 .text {
@@ -191,7 +196,7 @@ body {
 
 .header {
   display: flex;
-  background-color: #e5c1cd;
+  background-color: #d7ecf6;
   justify-content: space-between;
   align-items: center;
 
@@ -215,7 +220,7 @@ body {
 .header-email:visited {
   display: inline-block;
   text-decoration: none;
-  color: #453a3d;
+  color: #0b1317;
   font-weight: 500;
   font-size: 1.4rem;
   transition: all 0.3s;
@@ -259,18 +264,19 @@ body {
 }
 
 .hero-left {
-  padding: 4.8rem;
-  display: flex;
-  flex-direction: column;
-  gap: 4.8rem;
+  padding: 4.8rem 1.8rem 4.8rem 14.4rem;
 }
 
 .hero-text {
   margin-bottom: 3.2rem;
 }
 
+.stores {
+  margin-bottom: 4.8rem;
+}
+
 .hero-right {
-  background-image: url(../img/hero.webp);
+  background-image: url(../img/hero.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -286,14 +292,14 @@ body {
 /**************************/
 
 .footer {
-  background-color: #000;
+  background-color: #d7ecf6;
+  color: #0b1317;
 }
 
 .grid--footer {
   grid-template-columns: repeat(3, 1fr);
   max-width: 130rem;
   margin: 0 auto;
-  color: #ccc;
   padding: 12.8rem 1.2rem 9.6rem 1.2rem;
   justify-content: space-between;
   align-items: flex-start;
@@ -335,13 +341,12 @@ body {
 .footer-link:visited {
   text-decoration: none;
   font-size: 1.6rem;
-  color: #ccc;
   transition: all 0.3s;
 }
 
 .footer-link:hover,
 .footer-link:active {
-  color: #fff;
+  color: #000;
 }
 
 .social-container {
@@ -369,7 +374,6 @@ body {
   margin: 0 auto;
   font-size: 1.2rem;
   padding-bottom: 2.4rem;
-  color: #ccc;
 }
 
 .policies {
@@ -382,13 +386,12 @@ body {
   display: inline-block;
   text-decoration: none;
   font-size: 1.2rem;
-  color: #ccc;
   transition: all 0.3s;
 }
 
 .policy:hover,
 .policy:active {
-  color: #fff;
+  color: #000;
 }
 
 /**************************/
