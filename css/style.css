@@ -247,18 +247,36 @@ body {
 }
 
 .header-email:link,
-.header-email:visited {
+.header-email:visited,
+.language-selector:link,
+.language-selector:visited {
   display: inline-block;
   text-decoration: none;
   color: #0b1317;
   font-weight: 500;
-  font-size: 1.4rem;
   transition: all 0.3s;
+  cursor: pointer;
 }
 
 .header-email:hover,
-.header-email:active {
+.header-email:active,
+.language-selector:hover,
+.language-selector:active {
   color: #fff;
+}
+
+.header-email:link,
+.header-email:visited {
+  font-size: 1.4rem;
+}
+
+.languages {
+  font-size: 2rem;
+}
+
+.language-selector:link,
+.language-selector:visited {
+  font-size: 2rem;
 }
 
 /* STICKY NAVIGATION */
