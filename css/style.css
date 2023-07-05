@@ -124,7 +124,8 @@ body {
 }
 
 .section {
-  padding: 9.6rem 0;
+  padding: 6.4rem 0;
+  background-color: #f7fbfd;
 }
 
 .grid {
@@ -172,11 +173,22 @@ body {
   border-radius: 12px;
 }
 
+.btn:hover,
+.btn:active {
+  background-color: #000;
+}
+
 .btn--pink,
 .btn--pink:link,
 .btn--pink:visited {
   background-color: #f2a2be;
   color: #302026;
+}
+
+.btn--pink:hover,
+.btn--pink:active {
+  background-color: #b3003f;
+  color: #f7e6ec;
 }
 
 .text {
@@ -194,6 +206,14 @@ body {
 
 .container-center {
   text-align: center;
+}
+
+.margin-bottom-sm {
+  margin-bottom: 2.4rem !important;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
 }
 
 .no-margin-bottom {
@@ -299,6 +319,30 @@ body {
 }
 
 /**************************/
+/* REASONS SECTION */
+/**************************/
+
+.grid--reasons {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 3.2rem;
+}
+
+.reasons-icon {
+  height: 5rem;
+  margin-bottom: 1.2rem;
+}
+
+.text-reasons {
+  font-size: 1.4rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+/**************************/
 /* AMAZON SECTION */
 /**************************/
 
@@ -334,6 +378,65 @@ body {
 .amazon-icon {
   height: 20rem;
   width: 20rem;
+}
+
+.amazon-icon-link:link,
+.amazon-icon-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #6ec1ea;
+  font-weight: 500;
+  font-size: 1.4rem;
+  transition: all 0.3s;
+}
+
+.amazon-icon-link:hover,
+.amazon-icon-link:active {
+  color: #1a67af;
+}
+
+/**************************/
+/* WHATSAPP - SECTION */
+/**************************/
+
+.img-container {
+  text-align: center;
+}
+
+.img-section {
+  max-width: 90%;
+  border-radius: 12px;
+}
+
+.whatsapp-icons {
+  text-align: center;
+  display: block;
+  margin-bottom: 3.2rem;
+}
+
+.whatsapp-icon-link:link,
+.whatsapp-icon-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #6ec1ea;
+  font-weight: 500;
+  font-size: 1.4rem;
+  transition: all 0.3s;
+  margin-bottom: 3.2rem;
+}
+
+.whatsapp-icon-link:hover,
+.whatsapp-icon-link:active {
+  color: #1a67af;
+}
+
+/**************************/
+/* CTA SECTION */
+/**************************/
+
+.heading-cta {
+  font-size: 2.4rem;
+  margin-bottom: 4.8rem;
 }
 
 /**************************/
@@ -391,6 +494,7 @@ body {
   text-decoration: none;
   font-size: 1.6rem;
   transition: all 0.3s;
+  color: #1a67af;
 }
 
 .footer-link:hover,
