@@ -1,4 +1,8 @@
 # http and https need separate rules if you don’t force_ssl!
 
-https://agua-de-cielo.com/_ https://www.aguadecielocosmetics.com/:splat 301!
-https://www.agua-de-cielo.com/_ https://www.aguadecielocosmetics.com/:splat 301!
+https://agua-de-cielo.com/ https://www.aguadecielocosmetics.com/:splat 301!
+https://www.agua-de-cielo.com/ https://www.aguadecielocosmetics.com/:splat 301!
+https://agua-de-cielo.com/terms-conditions/ https://aguadecielocosmetics.com/terms-conditions:splat 301!
+https://www.agua-de-cielo.com/terms-conditions/ https://aguadecielocosmetics.com/terms-conditions:splat 301!
+https://agua-de-cielo.com/privacy-policy/ https://aguadecielocosmetics.com/privacy-policy:splat 301!
+https://www.agua-de-cielo.com/privacy-policy/ https://aguadecielocosmetics.com/privacy-policy:splat 301!
