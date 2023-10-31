@@ -196,6 +196,11 @@ Instead, 1rem = 1em = 16px
   .img-section {
     width: 100%;
   }
+  .amazon-icons {
+    grid-template-columns: 1fr;
+    justify-content: space-around;
+    row-gap: 4.8rem;
+  }
 
   .grid--footer {
     max-width: 80rem;
